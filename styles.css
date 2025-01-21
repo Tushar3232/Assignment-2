@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+/* Shair stille */
+.display-flex{
+    display: flex;
+}
+.btn-primary{
+    width: 197px;
+    height: 50px;
+    background-color:#FEA301;
+    color:#FFFFFF;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 20px;
+    border: none;
+
+}
+.h3-black{
+    font-weight: bold;
+    font-size:2.87rem;
+    color: black;
+}
+/* Nav stilles */
+nav{
+    max-width: 1160px;
+    height: 62px;
+    margin: 0 auto;
+    border-bottom: 1px solid #FEA301 ;
+
+}
+.nav-items {
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.web-about{
+    align-items: center;
+}
+.list{
+    gap: 32px;
+    list-style: none; 
+}
+.li-1{
+    font-weight:500 ;
+    font-size: 20px;
+    color: #01ACFD;
+}
+.li-2{
+    font-weight:500 ;
+    font-size: 20px;
+    color: #01ACFD;
+}
+.li-3{
+    font-weight:500 ;
+    font-size: 20px;
+    color: #05D4DF;
+}
+.li-4{
+    font-weight:500 ;
+    font-size: 20px;
+    color: #5D58EF;
+}
+/* nav.menu-btn i{
+    color: black;
+
+} */
+ .div {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  /* nav hr{
+    color: #FEA301;
+  } */
+   
+  
+@media screen and (max-width:576px) {
+    /* nav items esponsive */
+    .web-name{
+        display: none;
+    }
+    .list{
+        
+        display: none;
+    }
+    nav .btn-primary{
+        display: none;
+    }   
+    .nav-items {
+        align-items: center;
+        justify-content: space-between;
+        max-width: 358px;
+        margin: 0 auto;
+        
+    }
+   
+}
+
+@media screen and (min-width:576px) and (max-width:2860px) {
+    /* nav hr{
+        display: none;
+    } */
+    nav{
+        border-bottom: none;
+    }
+}
